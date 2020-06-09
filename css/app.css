@@ -1,0 +1,77 @@
+body {
+    background-image: url("http://www.faviods.com/aldy/autos/img/bg-image.jpg");
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-family: 'Faster One', cursive;
+    text-transform: uppercase;
+    font-size: 5rem;
+    padding: 3rem 0;
+    margin: 0;
+}
+p {
+    font-size: 2rem;
+}
+h1, p {
+    text-align: center;
+}
+#app, 
+form {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem;
+    background-color: rgba(211, 211,211, 0.9);
+    margin-bottom: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+#app p{
+    text-align: left!important;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+#resultado p {
+    margin: 0;
+    padding: 2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+#resultado p span {
+    font-weight: bold;
+}
+#resultado p:last-of-type{
+    border: none;
+}
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+}
+.error {
+    background-color: red;
+}
+
+.tarjeta{
+    margin-bottom: 40px;
+    border: 1px solid rgb(34, 33, 33);
+}
+
+.tarjeta-titulo{
+    background-color: rgb(255, 187, 187);
+}
+
+@media (min-width:768px) {
+
+    
+}
+
+@media (max-width:480px) {
+    h1{
+        font-size: 40px;
+    }
+    
+}
